@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.bibit321.Modul6">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="Modul6"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name="com.example.bibit321.Modul6.MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    <activity android:name="com.example.bibit321.Modul6.BuatBiodata"
+        android:label="@string/title_activity_buatbiodata">
+    </activity>
+    <activity android:name="com.example.bibit321.Modul6.LihatBiodata"
+        android:label="@string/title_activity_lihatbiodata">
+    </activity>
+    <activity android:name="com.example.bibit321.Modul6.UpdateBiodata"
+        android:label="@string/title_activity_updatebiodata">
+    </activity>
+    </application>
+
+</manifest>
